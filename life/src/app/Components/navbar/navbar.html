@@ -1,0 +1,88 @@
+<!-- Topbar Start -->
+<div class="container-fluid topbar px-0 px-lg-4 bg-light py-2 d-none d-lg-block">
+    <div class="container">
+        <div class="row gx-0 align-items-center">
+            <div class="col-lg-8 text-center text-lg-start mb-lg-0">
+                <div class="d-flex flex-wrap">
+                    <div class="border-end border-primary pe-3">
+                        <a href="#" class="text-muted small"><i class="fas fa-map-marker-alt text-primary me-2"></i>Find A Location</a>
+                    </div>
+                    <div class="ps-3">
+                        <a href="mailto:example@gmail.com" class="text-muted small"><i class="fas fa-envelope text-primary me-2"></i>example@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center text-lg-end">
+                <div class="d-flex justify-content-end">
+                    <div class="d-flex border-end border-primary pe-3">
+                        <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-instagram"></i></a>
+                        <a class="btn p-0 text-primary me-0" href="#"><i class="fab fa-linked-in"></i></a>
+                    </div>
+                    <div class="dropdown ms-3">
+                        <a href="#" class="dropdown-toggle text-dark" data-bs-toggle="dropdown"><small><i class="fas fa-globe-europe text-primary me-2"></i> English</small></a>
+                        <div class="dropdown-menu rounded">
+                            <a href="#" class="dropdown-item">English</a>
+                            <a href="#" class="dropdown-item">Bangla</a>
+                            <a href="#" class="dropdown-item">French</a>
+                            <a href="#" class="dropdown-item">Spanish</a>
+                            <a href="#" class="dropdown-item">Arabic</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Topbar End -->
+
+<!-- Navbar & Hero Start -->
+<div class="container-fluid nav-bar px-0 px-lg-4 py-lg-0">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a routerLink="/" class="navbar-brand p-0">
+                <h1 class="text-primary mb-0"><i class="fab fa-slack me-2"></i> LifeSure</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav mx-0 mx-lg-auto">
+                    <a routerLink="/" class="nav-item nav-link active">Home</a>
+                    <a routerLink="/about" class="nav-item nav-link">About</a>
+                    <a routerLink="/service" class="nav-item nav-link">Services</a>
+                    <a routerLink="/blog" class="nav-item nav-link">Blog</a>
+                    <a routerLink="/contact" class="nav-item nav-link">Contact</a>
+                    <div class="nav-btn px-3">
+                        <button class="btn-search btn btn-primary btn-md-square rounded-circle flex-shrink-0" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
+                        <a href="#" class="btn btn-primary rounded-pill py-2 px-4 ms-3 flex-shrink-0"> Get a Quote</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Profile Dropdown -->
+            <div class="d-none d-xl-flex flex-shrink-0 ps-4 align-items-center">
+                <div class="dropdown me-3">
+                    <a href="#" class="dropdown-toggle d-flex align-items-center text-decoration-none" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                        <div class="btn btn-light btn-lg-square rounded-circle position-relative">
+                            <i class="fas fa-user fa-lg text-primary"></i>
+                        </div>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" routerLink="/login"><i class="fas fa-sign-in-alt me-2"></i>Login</a></li>
+                        <!-- <li><a class="dropdown-item" routerLink="/registration"><i class="fas fa-user-plus me-2"></i>Register</a></li> -->
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" routerLink="/"><i class="fas fa-sign-out-alt me-2"></i>Logout</a></li>
+                    </ul>
+                </div>
+
+                <div class="d-flex flex-column">
+                    <span class="small">Call to Our Experts</span>
+                    <a href="tel:+ 0123 456 7890"><span class="text-dark fw-bold">Free: + 0123 456 7890</span></a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+<!-- Navbar & Hero End -->

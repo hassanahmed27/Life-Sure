@@ -1,0 +1,8 @@
+{
+  "/api": {
+    "target": "https://tuliptowers.pk",
+    "secure": true,
+    "changeOrigin": true,
+    "logLevel": "debug"
+  }
+}

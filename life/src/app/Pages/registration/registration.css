@@ -1,0 +1,13 @@
+.spinner-border-sm {
+  width: 1rem;
+  height: 1rem;
+}
+
+.identity-note {
+  font-size: 0.875rem;
+  color: #6c757d;
+}
+
+.text-danger {
+  font-size: 0.875rem;
+}
